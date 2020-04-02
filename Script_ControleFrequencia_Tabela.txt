@@ -1,0 +1,8 @@
+Create table frequencia(
+id int  NOT NULL AUTO_INCREMENT,
+tia bigint DEFAULT NULL,
+nome varchar(85) DEFAULT NULL,
+horaEntrada varchar(9) DEFAULT NULL,
+horaSaida varchar(9) DEFAULT NULL,
+primary key(id))
+
